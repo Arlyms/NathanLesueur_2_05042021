@@ -289,7 +289,7 @@ span
 	box-shadow: 0px 0px 20px #b0b0b0;
 }
 
-#hebergements img
+.hebergement img
 {
 	width: 236px;
 	height: 114px;
@@ -484,7 +484,7 @@ a[href="Plus"]
 
 .activités_1 img
 {
-	width: 302px;
+	width: 100%;
 	height: 389px;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
@@ -502,7 +502,7 @@ a[href="Plus"]
 
 .activités_2 img
 {
-	width: 302px;
+	width: 100%;
 	height: 180px;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
@@ -520,7 +520,7 @@ a[href="Plus"]
 
 .activités_3 img
 {
-	width: 302px;
+	width: 100%;
 	height: 108px;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
@@ -538,7 +538,7 @@ a[href="Plus"]
 
 .activités_4 img
 {
-	width: 302px;
+	width: 100%;
 	height: 389px;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
@@ -556,7 +556,7 @@ a[href="Plus"]
 
 .activités_5 img
 {
-	width: 302px;
+	width: 100%;
 	height: 140px;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
@@ -574,7 +574,7 @@ a[href="Plus"]
 
 .activités_6 img
 {
-	width: 302px;
+	width: 100%;
 	height: 153px;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
@@ -621,9 +621,8 @@ footer
 
 @media screen and (max-width: 600px)            
 	
-	{	
+{	
 
-	/*Filtres*/
 
 	.desktop 
 	{
@@ -635,27 +634,45 @@ footer
 	display: inherit;
 	}
 
+	body
+	{
+	padding-top: 10px;	
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	}
+
 	button.mobile 
 	{
 	display:inline-block;
 	}
+
 
 	#header 
 	{
 	flex-direction: column;
 	}
 
+	.logo
+	{
+	margin-top: 0px;
+	flex-grow: 2;
+	}
+
 	nav ul
 	{
 	width: 100%;
+	margin-top: 30px;
 	list-style-type: none;
 	display: flex;
 	padding-left: 0px;
-	justify-content: space-between;
+	justify-content: space-around
 	}
 
 	nav li
 	{
+	width: 50%;
+	text-align: center;
 	margin-right: 0px;
 	}
 
@@ -665,7 +682,9 @@ footer
 	color:#181818;
 	text-decoration: none;
 	padding-top: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 
 	}
 
@@ -675,6 +694,31 @@ footer
 	border-top: none;
 	border-bottom: 3px solid #0065FC;
 	}
+
+	#bouton
+ {
+ 	border: 1.5px solid #0065FC;
+	border-radius: 0px 15px 15px 0px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: -5px;
+	text-decoration: none;
+	background-color: #0065FC;
+	color: white;
+ }
+ 
+ #Ville
+{
+	margin-left: 46px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+	padding-right: 44px;
+	border: none;
+	border: 1.5px solid #F2F2F2;
+}
 
 	/*Fitres*/
 
@@ -706,7 +750,7 @@ footer
 	.inscription a
 	{
 	display: flex;
-	font-size: 1.3em;
+	font-size: 1em;
 	font-weight: bold;
 	color:#0065FC;
 	text-decoration: none;
@@ -720,6 +764,27 @@ footer
 	{
 	display: flex;
 	flex-direction: column-reverse;
+	}
+
+	.hebergement
+	{
+	width: 100%;
+	height: 199px;
+	margin-bottom: 30px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: white;
+	box-shadow: 0px 0px 20px #b0b0b0;
+	padding: 5px;
+	}
+
+	.hebergement img
+	{
+	width: 100%;
+	height: 114px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+	margin: 0px;
+
 	}
 
 	#populaires
@@ -747,13 +812,12 @@ footer
 	flex-direction: column;
 	justify-content: space-around;
 	padding: 37px;
-	margin-left: -30px;
+	margin-left: -37px;
 	}
 
 	.hb
 	{
 	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
 	}
 
@@ -771,7 +835,7 @@ footer
 
 	.activités_1
 	{
-	width: 302px;
+	width: 100%;
 	height: 445px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
@@ -781,7 +845,7 @@ footer
 
 	.activités_2
 	{
-	width: 302px;
+	width: 100%;
 	height: 237px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;	
@@ -792,7 +856,7 @@ footer
 
 	.activités_3
 	{
-	width: 302px;
+	width: 100%;
 	height: 164px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
@@ -802,7 +866,7 @@ footer
 
 	.activités_4
 	{
-	width: 302px;
+	width: 100%;
 	height: 445px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
@@ -812,7 +876,7 @@ footer
 
 	.activités_5
 	{
-	width: 302px;
+	width: 100%;
 	height: 195px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
@@ -822,7 +886,7 @@ footer
 
 	.activités_6
 	{
-	width: 302px;
+	width: 100%;
 	height: 209px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
