@@ -1,3 +1,12 @@
+/**Sommaire**/
+
+/*Header*/
+/*Top*/
+/*Section 1 hebergement*/
+/*Aside populaire*/
+/*Section 2 activités*/
+/*Footer*/
+/*Tablette et Smartphone*/
 
 #bloc_page
 {
@@ -265,9 +274,7 @@ a[href="Animaux"]
 	padding-bottom: 10px;
 }
 
-
-
-/*Section*/
+/*Section 1 hebergement*/
 
 span
 {
@@ -324,8 +331,6 @@ section  h3
 	justify-content: space-around;
 }
 
-/*Etoiles*/
-
 .etoiles
 {
 	display: flex;
@@ -368,9 +373,7 @@ a[href="Plus"]
 	color: black;
 }
 
-
-
-/*Aside*/
+/*Aside populaire*/
 
 #populaires
 {
@@ -581,9 +584,6 @@ a[href="Plus"]
 	margin-bottom: 5px;
 }
 
-
-
-
 /*Footer*/
 
 footer
@@ -622,8 +622,6 @@ footer
 @media screen and (max-width: 600px)            
 	
 {	
-
-
 	.desktop 
 	{
 	display: none;
@@ -696,7 +694,7 @@ footer
 	}
 
 	#bouton
- {
+ 	{
  	border: 1.5px solid #0065FC;
 	border-radius: 0px 15px 15px 0px;
 	padding-top: 16px;
@@ -707,10 +705,10 @@ footer
 	text-decoration: none;
 	background-color: #0065FC;
 	color: white;
- }
+ 	}
  
- #Ville
-{
+	 #Ville
+	{
 	margin-left: 46px;
 	padding-top: 16px;
 	padding-bottom: 16px;
@@ -718,7 +716,7 @@ footer
 	padding-right: 44px;
 	border: none;
 	border: 1.5px solid #F2F2F2;
-}
+	}
 
 	/*Fitres*/
 
