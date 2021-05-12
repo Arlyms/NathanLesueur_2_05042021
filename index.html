@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<title>Reservia</title>	
@@ -17,19 +17,17 @@
 				<!-- Header Recherche-->
 				<header>
 					<div id="header">
-							<div class="logo">
-								<img src="images/Reservia.svg" alt="logo Reservia"/>
-							</div>	
-						<div class="top_left">	
-							<nav>
-								<ul>
-									<li><a href="#hebergements">Hébergements</a></li>
-									<li><a href="#activites">Activités</a></li>
-								</ul>
-							</nav>
-							<div class="inscription"><a href="#">S'inscrire</a>
-							</div>	
-						</div>
+						<div class="logo">
+							<img src="images/Reservia.svg" alt="logo Reservia"/>
+						</div>		
+						<nav>
+							<ul>
+								<li><a href="#hebergements">Hébergements</a></li>
+								<li><a href="#activites">Activités</a></li>
+							</ul>
+						</nav>
+						<div class="inscription"><a href="#">S'inscrire</a>
+						</div>	
 					</div>
 				</header>
 
@@ -41,14 +39,12 @@
 					<div id="recherche">
 						<form method="post" action="traitement.php">
 							<div>
-								<label for="Ville">
-									<div class="maps">
+								<label for="Ville" class="maps">
 										<i class="fas fa-map-marker-alt"></i>
-									</div>
 								</label>
 								<input type="search" name="Recherche" id="Ville" placeholder="Marseille, France" />
-								<button class="desktop" id="bouton"><span>Rechercher</span></button>
-								<button class="mobile" id="bouton"><span><i class="fas fa-search"></i></span></button>
+								<button id="button_1"><span>Rechercher</span></button>
+								<button id="button_2"><span><i class="fas fa-search"></i></span></button>
 							</div>
 						</form>
 					</div>	
@@ -69,7 +65,7 @@
 											<div class="logo1">
 												<i class="fas fa-heart fa-xs"></i>
 											</div></li>
-										<li><a href="Animaux"><nobr>Animaux autorisés</nobr></a>
+										<li><a href="Animaux">Animaux autorisés</a>
 											<div class="logo1">
 												<i class="fas fa-dog fa-xs"></i>
 											</div></li>
@@ -88,7 +84,7 @@
 				</section>
 
 				<!-- Section 1 : Hebergement -->
-				<section id="hebergements">
+				<div id="hebergements">
 					<article id="marseille">
 						<div class="titre_p">
 							<h2>Hébergement à marseille</h2>
@@ -261,10 +257,10 @@
 							</div>
 						</div>	
 					</aside>
-				</section>
+				</div>
 
 				<!-- Section 2 : Activités -->
-				<section id="activites">
+				<div id="activites">
 					<h2>Activités à Marseille</h2>
 					<div class="vignettes">
 						<div class="activites_1">
@@ -302,7 +298,7 @@
 							</div>
 						</div>	
 					</div>	
-				</section>
+				</div>
 			</div>
 				<!-- Footer A propos -->
 				<footer>
