@@ -9,6 +9,7 @@
 /*Tablette*/
 /*Smartphone*/
 
+
 #bloc_page
 {
 	max-width: 1400px;
@@ -17,7 +18,10 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding:18px;
+	padding-left:30px;
 }
+
+
 
 body
 {
@@ -1022,17 +1026,6 @@ footer
 	padding: 5px;
 	}
 
-	.hebergement h3 
-	{
-		margin-top: 2px;
-		margin-bottom: 2px;
-	}
-
-	.hebergement p 
-	{
-		margin-top: 3px;
-		margin-bottom: 4px;
-	}
 
 	.hebergement img
 	{
