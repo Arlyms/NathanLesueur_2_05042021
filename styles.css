@@ -1034,6 +1034,10 @@ footer
 	padding-left: 30px;
 	}
 
+	/*nav {
+		width: 100vw;
+	}*/
+
 	nav ul
 	{
 	order: 3;
@@ -1081,11 +1085,19 @@ footer
 	position: relative;
 	}
 
+	#recherche form {
+		width: 100%;
+	}
+
+	#recherche  form > div {
+		display: flex;
+	}
+
 	#button_2
  	{
 	position: absolute;
 	top: 0px;
-	left: 250px;
+	right: 0;
 	display: flex;
  	border: 1.5px solid transparent;
 	border-radius: 15px 15px 15px 15px;
@@ -1102,14 +1114,16 @@ footer
  
 	 #Ville
 	{
-	margin-left: 46px;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	padding-left: 10px;
-	padding-right: 44px;
-	border: none;
-	border: 1.5px solid #F2F2F2;
-	box-sizing: border-box;
+		width: 100%;
+		margin-left: 46px;
+		margin-right: 20px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 10px;
+		padding-right: 25px;
+		border: none;
+		border: 1.5px solid #F2F2F2;
+		box-sizing: border-box;
 	}
 
 	/*Fitres*/
