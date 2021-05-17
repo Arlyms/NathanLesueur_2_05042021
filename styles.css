@@ -19,6 +19,7 @@
 	margin-right: auto;
 	padding:18px;
 	padding-left:30px;
+	box-sizing: border-box;
 }
 
 
@@ -30,6 +31,7 @@ body
 	width: 100vw;
 	overflow-x: hidden;
 	padding-bottom: 0px;
+	box-sizing: border-box;
 }
 
 header 
@@ -75,12 +77,14 @@ nav a
 	text-decoration: none;
 	padding-top: 20px;
 	border-top: 3px solid transparent;
+	box-sizing: border-box;
 }
 
 nav a:hover
 {
 	color: #0065FC;
 	border-top: 2px solid #0065FC;
+	box-sizing: border-box;
 }
 
 .inscription a
@@ -91,6 +95,7 @@ nav a:hover
 	text-decoration: none;
 	padding-top: 15px;
 	padding-left: 15px;
+	box-sizing: border-box;
 }
 
 /*Top*/
@@ -128,6 +133,7 @@ nav a:hover
 	padding-bottom: 16px;
 	border-radius: 15px 0px 0px 15px;
 	background-color: #F2F2F2;
+	box-sizing: border-box;
 }
 
 #Ville
@@ -138,11 +144,12 @@ nav a:hover
 	padding-left: 10px;
 	border: none;
 	border: 1.5px solid #F2F2F2;
+	box-sizing: border-box;
 }
 
 #button_1
 {
- 	border: 1.5px solid #0065FC;
+ 	border: 1.5px solid transparent;
 	border-radius: 0px 15px 15px 0px;
 	padding-top: 16px;
 	padding-bottom: 16px;
@@ -152,6 +159,7 @@ nav a:hover
 	text-decoration: none;
 	background-color: #0065FC;
 	color: white;
+	box-sizing: border-box;
 }
 
 #button_2
@@ -198,6 +206,7 @@ nav a:hover
 {
 	background-color: #F2F2F2;
 	border-radius: 25px 25px 25px 25px;
+	box-sizing: border-box;
 }
 
 .logo1
@@ -212,6 +221,7 @@ nav a:hover
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
 }
 
 a[href="Economie"]
@@ -224,6 +234,7 @@ a[href="Economie"]
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	box-sizing: border-box;
 
 }
 
@@ -237,6 +248,7 @@ a[href="Familial"]
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	box-sizing: border-box;
 
 }
 
@@ -250,6 +262,7 @@ a[href="Romantique"]
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	box-sizing: border-box;
 }
 
 a[href="Animaux"]
@@ -263,6 +276,7 @@ a[href="Animaux"]
 	color: black;
 	font-weight: bold;
 	white-space:nowrap;
+	box-sizing: border-box;
 }
 
 
@@ -278,6 +292,7 @@ a[href="Animaux"]
 	border: 1.5px solid #DEEBFF;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
+	box-sizing: border-box;
 }
 
 #info
@@ -286,6 +301,7 @@ a[href="Animaux"]
 	align-items: center;
 	width: 1440px;
 	padding-bottom: 10px;
+	box-sizing: border-box;
 }
 
 /*Section 1 hebergement*/
@@ -309,6 +325,7 @@ span
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box;
 }
 
 a[href="vignette"] /*à dupliquer quand on aura les bons liens*/
@@ -319,6 +336,7 @@ a[href="vignette"] /*à dupliquer quand on aura les bons liens*/
 	height: 100%;
 	margin-bottom: 30px;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .hebergement img
@@ -328,6 +346,7 @@ a[href="vignette"] /*à dupliquer quand on aura les bons liens*/
 	object-fit: cover;
 	border-radius: 15px 15px 0px 0px;
 	margin:5px;
+	box-sizing: border-box;
 }
 
 #hebergements  p
@@ -385,6 +404,7 @@ a[href="vignette"] /*à dupliquer quand on aura les bons liens*/
 	flex-direction: column;
 	justify-content: space-around;
 	padding: 37px;
+	box-sizing: border-box;
 }
 
 #marseille h2, #populaires h2 {
@@ -411,6 +431,7 @@ a[href="Plus"]
 	border-radius: 20px 20px 20px 20px;
 	margin-left: 40px;
 	padding: 37px;
+	box-sizing: border-box;
 }
 
 .titre_p
@@ -438,6 +459,7 @@ a[href="Plus"]
 	object-fit: cover;
 	border-radius: 15px 0px 0px 15px;
 	margin:5px;
+	box-sizing: border-box;
 }
 
 .hebergement_pop
@@ -449,6 +471,7 @@ a[href="Plus"]
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
 	display: flex;
+	box-sizing: border-box;
 }
 
 a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
@@ -459,6 +482,7 @@ a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
 	width: 100%;
 	margin-bottom: 33px;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .hebergement_pop:last-child {
@@ -473,6 +497,7 @@ a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box;
 }
 
 .hebergement_9
@@ -483,6 +508,7 @@ a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box;
 }
 
 /*Section 2 activités*/
@@ -526,6 +552,7 @@ a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box;
 }
 
 a[href="vignette_3"] 
@@ -535,6 +562,7 @@ a[href="vignette_3"]
 	width: 100%;
 	height: 100%;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .activites_1 img
@@ -554,6 +582,7 @@ a[href="vignette_3"]
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;	
 	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box;
 }
 
 a[href="vignette_4"] 
@@ -563,6 +592,7 @@ a[href="vignette_4"]
 	width: 100%;
 	height: 100%;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .activites_2 img
@@ -572,6 +602,7 @@ a[href="vignette_4"]
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 .activites_3
@@ -582,6 +613,7 @@ a[href="vignette_4"]
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box;
 }
 
 a[href="vignette_5"] 
@@ -591,6 +623,7 @@ a[href="vignette_5"]
 	width: 100%;
 	height: 100%;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .activites_3 img
@@ -600,6 +633,7 @@ a[href="vignette_5"]
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 .activites_4
@@ -610,6 +644,7 @@ a[href="vignette_5"]
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
+	box-sizing: border-box;
 }
 
 a[href="vignette_6"] 
@@ -619,6 +654,7 @@ a[href="vignette_6"]
 	width: 100%;
 	height: 100%;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .activites_4 img
@@ -628,6 +664,7 @@ a[href="vignette_6"]
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 .activites_5
@@ -638,6 +675,7 @@ a[href="vignette_6"]
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
+	box-sizing: border-box;
 }
 
 a[href="vignette_7"] 
@@ -647,6 +685,7 @@ a[href="vignette_7"]
 	width: 100%;
 	height: 100%;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }	
 
 .activites_5 img
@@ -656,6 +695,7 @@ a[href="vignette_7"]
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 .activites_6
@@ -666,6 +706,7 @@ a[href="vignette_7"]
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
+	box-sizing: border-box;
 }	
 
 a[href="vignette_8"] 
@@ -675,6 +716,7 @@ a[href="vignette_8"]
 	width: 100%;
 	height: 100%;
 	border-radius: 20px 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .activites_6 img
@@ -684,6 +726,7 @@ a[href="vignette_8"]
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 5px;
+	box-sizing: border-box;
 }
 
 /*Footer*/
@@ -706,6 +749,7 @@ footer
 	padding-top: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	box-sizing: border-box;
 }
 
 .a_propos
@@ -758,6 +802,7 @@ footer
 	border-radius: 0px 0px 0px 0px;
 	margin-left: 0px;
 	padding: 37px;
+	box-sizing: border-box;
 	}
 
 	.hebergement_pop
@@ -800,6 +845,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
 	margin: 5px;
+	box-sizing: border-box;
 	}
 	
 	.activites_2
@@ -810,6 +856,7 @@ footer
 	background-color: white;	
 	box-shadow: 0px 0px 20px #b0b0b0;
 	margin: 10px;
+	box-sizing: border-box;
 	}
 		
 	
@@ -821,6 +868,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
 	margin: 10px;
+	box-sizing: border-box;
 	}
 	
 	.activites_4
@@ -831,6 +879,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
 	margin: 10px;
+	box-sizing: border-box;
 	}	
 	
 	.activites_5
@@ -841,6 +890,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
 	margin: 10px;
+	box-sizing: border-box;
 	}	
 	
 	.activites_6
@@ -851,6 +901,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
 	margin: 10px;
+	box-sizing: border-box;
 	}	
 }
 
@@ -865,6 +916,11 @@ footer
 		overflow-x: hidden;
 	}
 
+	#bloc_page
+	{
+		padding: 0;
+	}
+
 	#button_1 
 	{
 	display:none;
@@ -875,6 +931,8 @@ footer
 	{
 		flex-wrap: wrap;
 		justify-content: center;
+		padding: 30px;
+		box-sizing: border-box;
 	}
 
 	
@@ -885,6 +943,7 @@ footer
 		text-decoration: none;
 		padding-top: 15px;
 		padding-left: 15px;
+		box-sizing: border-box;
 	}
 
 	.inscription
@@ -908,7 +967,8 @@ footer
 	list-style-type: none;
 	display: flex;
 	padding-left: 0px;
-	justify-content: space-around
+	justify-content: space-around;
+	box-sizing: border-box;
 	}
 
 	nav li
@@ -926,6 +986,7 @@ footer
 	padding-bottom: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
+	box-sizing: border-box;
 
 	}
 
@@ -934,6 +995,7 @@ footer
 	color: #0065FC;
 	border-top: none;
 	border-bottom: 3px solid #0065FC;
+	box-sizing: border-box;
 	}
 
 	#recherche
@@ -947,7 +1009,7 @@ footer
 	top: 0px;
 	left: 250px;
 	display: flex;
- 	border: 1.5px solid #0065FC;
+ 	border: 1.5px solid transparent;
 	border-radius: 15px 15px 15px 15px;
 	padding-top: 16px;
 	padding-bottom: 16px;
@@ -957,6 +1019,7 @@ footer
 	text-decoration: none;
 	background-color: #0065FC;
 	color: white;
+	box-sizing: border-box;
  	}
  
 	 #Ville
@@ -968,6 +1031,7 @@ footer
 	padding-right: 44px;
 	border: none;
 	border: 1.5px solid #F2F2F2;
+	box-sizing: border-box;
 	}
 
 	/*Fitres*/
@@ -986,6 +1050,7 @@ footer
 	align-items: flex-start;
 	flex-direction: column;
 	padding-left: 0px;
+	box-sizing: border-box;
 	}
 
 	#links li
@@ -1005,6 +1070,7 @@ footer
 	text-decoration: none;
 	padding-top: 15px;
 	padding-left: 15px;
+	box-sizing: border-box;
 	}
 
 	/*Hebergements*/
@@ -1024,6 +1090,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
 	padding: 5px;
+	box-sizing: border-box;
 	}
 
 
@@ -1049,6 +1116,7 @@ footer
 	border-radius: 0px 0px 0px 0px;
 	margin-left: -30px;
 	padding: 30px;
+	box-sizing: border-box;
 
 	}
 
@@ -1062,6 +1130,7 @@ footer
 	justify-content: space-around;
 	padding: 37px;
 	margin-left: -37px;
+	box-sizing: border-box;
 	}
 
 	.hb
@@ -1095,6 +1164,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
 	margin-bottom: 30px;
+	box-sizing: border-box;
 	}
 
 	.activites_2
@@ -1105,6 +1175,7 @@ footer
 	background-color: white;	
 	box-shadow: 0px 0px 20px #b0b0b0;
 	margin-bottom: 30px;
+	box-sizing: border-box;
 	}
 	
 
@@ -1116,6 +1187,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0;
 	margin-bottom: 30px;
+	box-sizing: border-box;
 	}
 
 	.activites_4
@@ -1126,6 +1198,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
 	margin-bottom: 30px;
+	box-sizing: border-box;
 	}	
 
 	.activites_5
@@ -1136,6 +1209,7 @@ footer
 	background-color: white;
 	box-shadow: 0px 0px 20px #b0b0b0; 
 	margin-bottom: 30px;
+	box-sizing: border-box;
 	}	
 
 	.activites_6
@@ -1144,7 +1218,8 @@ footer
 	height: 209px;
 	border-radius: 20px 20px 20px 20px;
 	background-color: white;
-	box-shadow: 0px 0px 20px #b0b0b0; 
+	box-shadow: 0px 0px 20px #b0b0b0;
+	box-sizing: border-box; 
 	}	
 
 
@@ -1162,7 +1237,7 @@ footer
 
 	.a_propos
 	{
-	margin-right: 50px;
+		margin-right: 50px;
 	}
 
 }
