@@ -75,7 +75,7 @@ nav a
 	font-size: 1.3em;
 	color:#181818;
 	text-decoration: none;
-	padding-top: 20px;
+	padding-top: 51px;
 	border-top: 3px solid transparent;
 	box-sizing: border-box;
 }
@@ -280,7 +280,6 @@ a[href="Animaux"]
 	box-sizing: border-box;
 }
 
-
 .i
 {
 	color: #0065FC;
@@ -329,7 +328,7 @@ span
 	box-sizing: border-box;
 }
 
-a[href="vignette"] /*à dupliquer quand on aura les bons liens*/
+a.clic-vignette 
 {
 	position: absolute;
 	display: block;
@@ -475,7 +474,7 @@ a[href="Plus"]
 	box-sizing: border-box;
 }
 
-a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
+a.clic-vignette_2 
 {
 	position: absolute;
 	display: block;
@@ -556,7 +555,7 @@ a[href="vignette_2"] /*à dupliquer quand on aura les bons liens*/
 	box-sizing: border-box;
 }
 
-a[href="vignette_3"] 
+a.clic-vignette_3 
 {
 	position: absolute;
 	display: block;
@@ -586,7 +585,7 @@ a[href="vignette_3"]
 	box-sizing: border-box;
 }
 
-a[href="vignette_4"] 
+a.clic-vignette_4 
 {
 	position: absolute;
 	display: block;
@@ -617,7 +616,7 @@ a[href="vignette_4"]
 	box-sizing: border-box;
 }
 
-a[href="vignette_5"] 
+a.clic-vignette_5
 {
 	position: absolute;
 	display: block;
@@ -648,7 +647,7 @@ a[href="vignette_5"]
 	box-sizing: border-box;
 }
 
-a[href="vignette_6"] 
+a.clic-vignette_6 
 {
 	position: absolute;
 	display: block;
@@ -679,7 +678,7 @@ a[href="vignette_6"]
 	box-sizing: border-box;
 }
 
-a[href="vignette_7"] 
+a.clic-vignette_7
 {
 	position: absolute;
 	display: block;
@@ -710,7 +709,7 @@ a[href="vignette_7"]
 	box-sizing: border-box;
 }	
 
-a[href="vignette_8"] 
+a.clic-vignette_8
 {
 	position: absolute;
 	display: block;
@@ -986,7 +985,7 @@ footer
 	body
 	{
 		width: 100%;
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 
 	#bloc_page
@@ -1034,9 +1033,9 @@ footer
 	padding-left: 30px;
 	}
 
-	/*nav {
+	nav {
 		width: 100vw;
-	}*/
+	}
 
 	nav ul
 	{
@@ -1066,9 +1065,8 @@ footer
 	color:#181818;
 	text-decoration: none;
 	padding-top: 0px;
-	padding-bottom: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-bottom: 10px;	
+	border-bottom: 3px solid #eee;
 	box-sizing: border-box;
 	}
 
